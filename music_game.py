@@ -42,7 +42,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5):
         st.error(f"❌ ข้อ 1: ยังไม่ถูกต้อง (คุณตอบ '{u_ans1}')")
 
   
-    if u_ans2 == "ดึงดัน-ค็อกเทล":
+    if u_ans2 == "ดึงดัน - ค็อกเทล":
         st.success("✅ ข้อ 2: ถูกต้อง")
         score += 1
     else:
@@ -56,14 +56,14 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5):
         st.error(f"❌ ข้อ 3: ยังไม่ถูกต้อง (คุณตอบ '{u_ans3}')")
 
 
-    if u_ans4 == "มักอ้ายหลายเด้อ-กวาง จิรพรรณ":
+    if u_ans4 == "มักอ้ายหลายเด้อ - กวาง จิรพรรณ":
         st.success("✅ ข้อ 4: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 4: ยังไม่ถูกต้อง (คุณตอบ '{u_ans4}')")
 
 
-    if u_ans5 == "ฟ้า-Tattoo colour":
+    if u_ans5 == "ฟ้า - Tattoo colour":
         st.success("✅ ข้อ 5: ถูกต้อง")
         score += 1
     else:
