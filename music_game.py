@@ -75,7 +75,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5):
       st.success("🎉 คุณผ่านแล้วเก่งมาก ")  
     elif 1 <= score <= 4:
       st. warning ("คุณเกือบผ่านแล้วฟังบ่อยๆนะ")
-   else:
+    else:
       st.error ("คุณแพ้ ลองฟังเพลงที่หลากหลายและเยอะขึ้นนะ")
 
 
