@@ -49,7 +49,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5):
         st.error(f"❌ ข้อ 2: ยังไม่ถูกต้อง (คุณตอบ '{u_ans2}')")
 
   
-    if u_ans3 == "ใจบาง - Lummun":
+    if u_ans3 == "ใจบาง - lummun":
         st.success("✅ ข้อ 3: ถูกต้อง")
         score += 1
     else:
@@ -63,7 +63,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5):
         st.error(f"❌ ข้อ 4: ยังไม่ถูกต้อง (คุณตอบ '{u_ans4}')")
 
 
-    if u_ans5 == "ฟ้า - Tattoo colour":
+    if u_ans5 == "ฟ้า - tattoo colour":
         st.success("✅ ข้อ 5: ถูกต้อง")
         score += 1
     else:
