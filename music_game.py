@@ -1,7 +1,7 @@
 import time
 import streamlit as st
 
-st.title("⏰ เกมเติมศัพท์จับเวลา")
+st.title("⏰ เกมทายเพลงจับเวลา 🎶")
 
 if "ans1_val" not in st.session_state:
     st.session_state.ans1_val = ""
@@ -136,6 +136,6 @@ if st.session_state.get("is_ended", False):
     show_result_dialog(ans1, ans2, ans3, ans4, ans5)
 
 st.divider()
-st.write("นายกวินภพ กันทนาวินนท์ เลขที่ 7 ม.4/7")
+st.write("กลุ่มที่8 ม.4/7")
 
 
